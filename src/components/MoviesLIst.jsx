@@ -1,6 +1,6 @@
 import Movie from "./Movie";
 
-function MoviesLIst(props) {
+function MoviesList(props) {
   const { movies } = props;
 
   return (
@@ -12,4 +12,4 @@ function MoviesLIst(props) {
   );
 }
 
-export default MoviesLIst;
+export default MoviesList;

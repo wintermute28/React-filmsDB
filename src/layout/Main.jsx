@@ -1,5 +1,5 @@
 import React from "react";
-import MoviesLIst from "../components/MoviesLIst";
+import MoviesList from "../components/MoviesList";
 
 class Main extends React.Component {
   state = {
@@ -18,7 +18,7 @@ class Main extends React.Component {
     return (
       <main className="content container">
         {movies.length > 0 ? (
-          <MoviesLIst movies={this.state.movies} />
+          <MoviesList movies={this.state.movies} />
         ) : (
           <div className="progress orange darken-3">
             <div className="indeterminate"></div>
