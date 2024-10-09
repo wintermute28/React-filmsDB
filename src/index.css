@@ -26,3 +26,18 @@ nav {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1rem;
 }
+.input-group {
+  display: flex;
+}
+
+.btn-search {
+  background-color: #ef6c00;
+}
+.btn-search:hover,
+.btn-search:focus {
+  background-color: orange;
+}
+
+.btn-search:active {
+  background-color: #26a69a;
+}
