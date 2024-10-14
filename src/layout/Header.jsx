@@ -3,18 +3,24 @@ function Header() {
     <div>
       <nav className="orange darken-3">
         <div className="nav-wrapper">
-          <a href="#" className="brand-logo">
+          <a href="" className="brand-logo">
             FilmsDB
           </a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
-              <a href="#">Sass</a>
+              <a target="_blank" href="https://www.imdb.com/">
+                IMDb
+              </a>
             </li>
             <li>
-              <a href="#">Components</a>
+              <a target="_blank" href="https://www.rottentomatoes.com/">
+                Rotten Tomatoes
+              </a>
             </li>
             <li>
-              <a href="#">JavaScript</a>
+              <a target="_blank" href="https://www.metacritic.com/">
+                Metacritic
+              </a>
             </li>
           </ul>
         </div>

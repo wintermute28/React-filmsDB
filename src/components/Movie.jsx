@@ -24,13 +24,16 @@ const Movie = (props) => {
         <span className="card-title activator grey-text text-darken-4">
           {title}
         </span>
-        <p>
-          {year.length > 4 ? `Years: ${year}` : `Year: ${year}`}
-          {/* Year: {year} */}
+        <p className="card-content-descr">
+          <span>
+            {year.length > 4 ? `Years: ${year}` : `Year: ${year}`}
+            {/* Year: {year} */}
+          </span>
           <span className="right">{type[0].toUpperCase() + type.slice(1)}</span>
         </p>
         <p>
           <a
+            className="imdb-link"
             target="_blank"
             href={`https://www.imdb.com/title/${id}`}
             rel="noreferrer"

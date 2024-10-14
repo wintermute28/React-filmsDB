@@ -4,8 +4,12 @@ function Footer() {
       <div className="footer-copyright">
         <div className="container">
           © {new Date().getFullYear()} All rights reserved
-          <a className="grey-text text-lighten-4 right" href="#!">
-            Repo
+          <a
+            target="_blank"
+            className="grey-text text-lighten-4 right"
+            href="https://github.com/wintermute28/React-filmsDB"
+          >
+            GitHub
           </a>
         </div>
       </div>
