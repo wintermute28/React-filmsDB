@@ -1,6 +1,6 @@
 import Movie from "./Movie";
 
-function MoviesList(props) {
+const MoviesList = (props) => {
   const { movies = [] } = props;
 
   return (
@@ -14,6 +14,6 @@ function MoviesList(props) {
       )}
     </div>
   );
-}
+};
 
 export default MoviesList;

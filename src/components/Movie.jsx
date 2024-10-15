@@ -25,10 +25,7 @@ const Movie = (props) => {
           {title}
         </span>
         <p className="card-content-descr">
-          <span>
-            {year.length > 4 ? `Years: ${year}` : `Year: ${year}`}
-            {/* Year: {year} */}
-          </span>
+          <span>{year.length > 4 ? `Years: ${year}` : `Year: ${year}`}</span>
           <span className="right">{type[0].toUpperCase() + type.slice(1)}</span>
         </p>
         <p>

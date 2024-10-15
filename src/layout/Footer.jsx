@@ -1,4 +1,4 @@
-function Footer() {
+const Footer = () => {
   return (
     <footer className="page-footer orange darken-3">
       <div className="footer-copyright">
@@ -8,6 +8,7 @@ function Footer() {
             target="_blank"
             className="grey-text text-lighten-4 right"
             href="https://github.com/wintermute28/React-filmsDB"
+            rel="noreferrer"
           >
             GitHub
           </a>
@@ -15,6 +16,6 @@ function Footer() {
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

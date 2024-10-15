@@ -1,4 +1,4 @@
-function Header() {
+const Header = () => {
   return (
     <div>
       <nav className="orange darken-3">
@@ -8,17 +8,25 @@ function Header() {
           </a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
-              <a target="_blank" href="https://www.imdb.com/">
+              <a target="_blank" href="https://www.imdb.com/" rel="noreferrer">
                 IMDb
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://www.rottentomatoes.com/">
+              <a
+                target="_blank"
+                href="https://www.rottentomatoes.com/"
+                rel="noreferrer"
+              >
                 Rotten Tomatoes
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://www.metacritic.com/">
+              <a
+                target="_blank"
+                href="https://www.metacritic.com/"
+                rel="noreferrer"
+              >
                 Metacritic
               </a>
             </li>
@@ -27,6 +35,6 @@ function Header() {
       </nav>
     </div>
   );
-}
+};
 
 export default Header;

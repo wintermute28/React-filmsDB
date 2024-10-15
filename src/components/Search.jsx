@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 
 const Search = (props) => {
   const { searchMovies = Function.prototype } = props;
